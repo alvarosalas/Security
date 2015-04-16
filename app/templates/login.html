@@ -12,11 +12,11 @@
       <div class="list">
         <label class="item item-input">
           <span class="input-label">Username</span>
-          <input type="text" ng-model="loginData.username">
+          <input type="text" ng-model="usernameLogin">
         </label>
         <label class="item item-input">
           <span class="input-label">Password</span>
-          <input type="password" ng-model="loginData.password">
+          <input type="password" ng-model="passwordLogin">
         </label>
         <label class="item">
           <button class="button button-block button-positive" type="submit">Log in</button>
@@ -30,27 +30,27 @@
       <div class="list">
         <label class="item item-input">
           <span class="input-label">Username</span>
-          <input type="text" ng-model="registerData.username">
+          <input type="text" ng-model="username">
         </label>
         <label class="item item-input">
           <span class="input-label">Password</span>
-          <input type="password" ng-model="registerData.password">
+          <input type="password" ng-model="password">
         </label>
         <label class="item item-input">
           <span class="input-label">Name</span>
-          <input type="password" ng-model="registerData.password">
+          <input type="text" ng-model="name">
         </label>
         <label class="item item-input">
           <span class="input-label">Surename</span>
-          <input type="password" ng-model="registerData.password">
+          <input type="text" ng-model="surname">
         </label>
         <label class="item item-input">
           <span class="input-label">Email</span>
-          <input type="password" ng-model="registerData.password">
+          <input type="email" ng-model="email">
         </label>
         <label class="item item-input">
           <span class="input-label">Phone number</span>
-          <input type="password" ng-model="registerData.password">
+          <input type="tel" ng-model="number">
         </label>
         <label class="item">
           <button class="button button-block button-positive" ng-click="register()">Save</button>

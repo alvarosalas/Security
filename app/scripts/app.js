@@ -49,11 +49,11 @@ angular.module('JavaIonicSecurity', ['ionic', 'config', 'JavaIonicSecurity.contr
         }
       }
     })
-    .state('app.playlists', {
-      url: '/playlists',
+    .state('app.main', {
+      url: '/main',
       views: {
         'menuContent': {
-          templateUrl: 'templates/playlists.html',
+          templateUrl: 'templates/main.html',
           controller: 'PlaylistsCtrl'
         }
       }
@@ -68,5 +68,5 @@ angular.module('JavaIonicSecurity', ['ionic', 'config', 'JavaIonicSecurity.contr
       }
     });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
+  $urlRouterProvider.otherwise('/app/main');
 });
